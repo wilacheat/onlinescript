@@ -1,0 +1,107 @@
+--discord.gg/hile
+--Made By 🔱 LasTPoinT#0001🔱
+gameversion = "1.32.0.f1831"
+ScriptVer = "1.0"
+menu = "❏ "..bit.." ʙɪᴛ ᴍᴇɴᴜ"
+DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :【"..gameversion.."】\n"..menu
+
+
+
+AUGS = "7040"
+URATIOS = "9396"
+M4S = "8022"
+MR96S = "8368"
+P90S = "8992"
+FP6S = "9055"
+GSRS = "9380"
+SA58S = "4720"
+M14S = "8989"
+P250S = "643"
+TRGS = "3975"
+SUPER90S = "539"
+XD45S = "675"
+AR15S = "9326"
+AK47S = "7938"
+HK417S = "9265"
+MP5S = "865"
+MP7S = "8608"
+MTXS = "477"
+SG551S = "8813"
+MPXS = "7245"
+M1887S = "7119"
+SVDS = "7228"
+VECTORS = "6097"
+FLASHS = "8904"
+GRENADES = "8686"
+SMOKES = "8703"
+
+
+if bit == 32 then
+bypass1 = 0x8326C4
+bypass2 = 0x53C04C
+bypass3 = 0x8B8AC4
+bypass4 = 0x89720C --ConnectionsMenu GetConnectionButton
+bypass5 = 0x8972B8 --ConnectionsMenu CreateConnectionButton
+bypass6 = 0xA0D1B4 --BackendManager GetSessionToken
+bypass7 = 0xA0D054 --BackendManager SetSessionToHeaders
+bypass8 = 0x817904 --abstract class ProfileCardFindRequ/GetHeaders
+radaresp = 0x84571C --get_FollowedCharacterTeamIndex
+norec = 0xC64644 --applyrecoil
+sprd = 0xC644E4 --updatespread
+aimpnch = 0xC647D4 --applyaimpunch
+speee = 0xC640AC --getcurrentmaxspeed
+hdrai = 0x5EE344 --raycastcharacters
+byrai = 0x5EE344 --raycastcharacters
+htb = 0x5EE344 --raycastcharacters
+noflsh = 0x5E3744 --raycastgrenade
+nosmk = 0x5E3744 --ExplodeGrenade
+wollbng = 0x5ED764 --processhitbuffer
+crossh = 0x791B0C --get_Crosshair
+blur = 0xAAAB9C --set_spread
+fOv = 0x42F164
+walkwall = 0xA7F7BC --getcapsuleparameters
+supresor = 0x7C339C --get_suppressor
+tutorialpas1 = 0x626350 --class tutorialmanager
+tutorialpas2 = 0x6267C4 --class tutorialmanager
+tutorialpas3 = 0x61CE6C --class tutorialmanager
+tutorialpas4 = 0x626864 --class tutorialmanager
+ptban1 = 0x7E1708 --get_issinglemember
+ptban2 = 0x7E22A8 --setstatus
+plywhlbn = 0x7E2670 --UpdateEnabledState
+dambbots = 0x70F478 --isvalidtarget
+end
+
+if bit == 64 then
+bypass1 = 0x8326C4
+bypass2 = 0x53C04C
+bypass3 = 0x8B8AC4
+bypass4 = 0x89720C --ConnectionsMenu GetConnectionButton
+bypass5 = 0x8972B8 --ConnectionsMenu CreateConnectionButton
+bypass6 = 0xA0D1B4 --BackendManager GetSessionToken
+bypass7 = 0xA0D054 --BackendManager SetSessionToHeaders
+bypass8 = 0x817904 --abstract class ProfileCardFindRequ/GetHeaders
+radaresp = 0x84571C --get_FollowedCharacterTeamIndex
+norec = 0xC64644 --applyrecoil
+sprd = 0xC644E4 --updatespread
+aimpnch = 0xC647D4 --applyaimpunch
+speed = 0xC640AC --getcurrentmaxspeed
+hdrai = 0x5EE344 --raycastcharacters
+byrai = 0x5EE344 --raycastcharacters
+htb = 0x5EE344 --raycastcharacters
+noflsh = 0x5E3744 --raycastgrenade
+nosmk = 0x5E3744 --ExplodeGrenade
+wollbng = 0x5ED764 --processhitbuffer
+crossh = 0x791B0C --get_Crosshair
+blur = 0xAAAB9C --set_spread
+fOv = 0x42F164
+walkwall = 0xA7F7BC --getcapsuleparameters
+supresor = 0x7C339C --get_suppressor
+tutorialpas1 = 0x626350 --class tutorialmanager
+tutorialpas2 = 0x6267C4 --class tutorialmanager
+tutorialpas3 = 0x61CE6C --class tutorialmanager
+tutorialpas4 = 0x626864 --class tutorialmanager
+ptban1 = 0x7E1708 --get_issinglemember
+ptban2 = 0x7E22A8 --setstatus
+plywhlbn = 0x7E2670 --UpdateEnabledState
+dambbots = 0x70F478 --isvalidtarget
+end
