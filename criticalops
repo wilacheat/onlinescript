@@ -102,5 +102,5 @@ tutorialpas4 = 0xD8CD08 --class tutorialmanager
 ptban1 = 0xC09BDC --get_issinglemember
 ptban2 = 0xC0A528 --setstatus
 plywhlbn = 0xC0A848 --UpdateEnabledState
-dambbots = 0xC44144 --0xAD48C4
-end 
+dambbots = 0xC44144 --isValidTarget
+end
