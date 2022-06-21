@@ -77,8 +77,8 @@ if bit == 64 then
 bypass1 = 0xC8D050
 bypass2 = 0xA0AA84
 bypass3 = 0xD51F3C
-bypass4 = 0xE7A500
-bypass5 = 0xE7A27C
+bypass4 = 0xE7F500
+bypass5 = 0xE7F27C
 bypass6 = 0xC52344 --ConnectionsMenu CreateConnectionButton
 bypass7 = 0xAF3548 --BackendManager SetSessionToHeaders
 bypass8 = 0xAE5588 --abstract class ProfileCardFindRequ/GetHeaders
