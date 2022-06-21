@@ -44,9 +44,9 @@ if bit == 32 then
 bypass1 = 0x8574C8
 bypass2 = 0x54A3F8
 bypass3 = 0x93AFE4
-bypass4 = 0xAB47AC
-bypass5 = 0x81130C --ConnectionsMenu CreateConnectionButton
-bypass6 = 0xAB448C
+bypass4 = 0xAB37AC --OnContactStatusChanged
+bypass5 = 0xAB348C --OnContactDataChanged
+bypass6 = 0x81130C --ConnectionsMenu CreateConnectionButton
 bypass7 = 0x6632E8 --BackendManager SetSessionToHeaders
 bypass8 = 0x6523D8 --abstract class ProfileCardFindRequ/GetHeaders
 radaresp = 0x7DF4CC --FetchFollowedCharacterTeamIndex
@@ -77,9 +77,9 @@ if bit == 64 then
 bypass1 = 0xC8D050
 bypass2 = 0xA0AA84
 bypass3 = 0xD51F3C
-bypass4 = 0xE80500
-bypass5 = 0xC52344 --ConnectionsMenu CreateConnectionButton
-bypass6 = 0xE8027C
+bypass4 = 0xE7A500 --OnContactStatusChanged
+bypass5 = 0xE7A27C --OnContactDataChanged
+bypass6 = 0xC52344 --ConnectionsMenu CreateConnectionButton
 bypass7 = 0xAF3548 --BackendManager SetSessionToHeaders
 bypass8 = 0xAE5588 --abstract class ProfileCardFindRequ/GetHeaders
 radaresp = 0xC2ADAC --get_FollowedCharacterTeamIndex
@@ -102,5 +102,5 @@ tutorialpas4 = 0xD8CD08 --class tutorialmanager
 ptban1 = 0xC09BDC --get_issinglemember
 ptban2 = 0xC0A528 --setstatus
 plywhlbn = 0xC0A848 --UpdateEnabledState
-dambbots = 0xC44144 --0xAD48C4
+dambbots = 0xC44144 --isvalidtarget
 end 
