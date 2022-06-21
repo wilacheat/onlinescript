@@ -1,3 +1,45 @@
+--discord.gg/hile
+--Made By 🔱 LasTPoinT#0001🔱
+gameversion = "1.33.0.f1864"
+ScriptVer = "1.0"
+menu = "❏ "..bit.." ʙɪᴛ ᴍᴇɴᴜ"
+DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :【"..gameversion.."】\n"..menu
+
+
+il2cpp32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 20 af 47 02 00 02 00 05"
+
+il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 a0 de 73 00 00 00 00 00 40 00 00 00 00 00 00 00"
+
+
+AUGS = "7040"
+URATIOS = "9396"
+M4S = "8022"
+MR96S = "8368"
+P90S = "8992"
+FP6S = "9055"
+GSRS = "9380"
+SA58S = "4720"
+M14S = "8989"
+P250S = "643"
+TRGS = "3975"
+SUPER90S = "539"
+XD45S = "675"
+AR15S = "9326"
+AK47S = "7938"
+HK417S = "9265"
+MP5S = "865"
+MP7S = "8608"
+MTXS = "477"
+SG551S = "8813"
+MPXS = "7245"
+M1887S = "7119"
+SVDS = "7228"
+VECTORS = "6097"
+FLASHS = "8904"
+GRENADES = "8686"
+SMOKES = "8703"
+
+
 if bit == 32 then
 bypass1 = 0x8574C8
 bypass2 = 0x54A3F8
@@ -60,5 +102,5 @@ tutorialpas4 = 0xD8CD08 --class tutorialmanager
 ptban1 = 0xC09BDC --get_issinglemember
 ptban2 = 0xC0A528 --setstatus
 plywhlbn = 0xC0A848 --UpdateEnabledState
-dambbots = 0xC44144 --isValidTarget
+dambbots = 0xC44144 --0xAD48C4
 end 
