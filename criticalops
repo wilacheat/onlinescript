@@ -44,9 +44,9 @@ if bit == 32 then
 bypass1 = 0x8574C8
 bypass2 = 0x54A3F8
 bypass3 = 0x93AFE4
-bypass4 = 0xAB37AC
-bypass5 = 0xAB348C
-bypass6 = 0x81130C --ConnectionsMenu CreateConnectionButton
+bypass4 = 0xAB348C
+bypass5 = 0xAB37AC
+bypass6 = 0xAB3D00
 bypass7 = 0x6632E8 --BackendManager SetSessionToHeaders
 bypass8 = 0x6523D8 --abstract class ProfileCardFindRequ/GetHeaders
 radaresp = 0x7DF4CC --FetchFollowedCharacterTeamIndex
@@ -70,16 +70,24 @@ tutorialpas4 = 0x984814 --class tutorialmanager
 ptban1 = 0x7B7528 --get_issinglemember
 ptban2 = 0x7B80C8 --setstatus
 plywhlbn = 0x7B8490 --UpdateEnabledState
-dambbots = 0x63BE24 --isvalidtarget
+dambbots = 0x63BE24 --isValidTarget
+fsspawn = 0xF1A178 --public class NetworkThread / GetStats
+wteam = 0x7DEC74 --get_IsViewLocalCharacter
+fkduck = 0xAE2AFC --UpdateCrouch
+stickman = 0x1DB61AC --get_normal / public struct RaycastHit
+bunnyhop = 0x1DB61C0 --get_distance / public struct RaycastHit
+reloading = 0xAE0998 --isReloadingPossible
+suppressor = 0x79A2F8 --get_Suppressor
+namespoofer = 0x83AE98 --public class KillNotification
 end
 
 if bit == 64 then
 bypass1 = 0xC8D050
 bypass2 = 0xA0AA84
 bypass3 = 0xD51F3C
-bypass4 = 0xE7F500
-bypass5 = 0xE7F27C
-bypass6 = 0xC52344 --ConnectionsMenu CreateConnectionButton
+bypass4 = 0xE7F27C
+bypass5 = 0xE7F500
+bypass6 = 0xE7F988
 bypass7 = 0xAF3548 --BackendManager SetSessionToHeaders
 bypass8 = 0xAE5588 --abstract class ProfileCardFindRequ/GetHeaders
 radaresp = 0xC2ADAC --get_FollowedCharacterTeamIndex
@@ -103,4 +111,12 @@ ptban1 = 0xC09BDC --get_issinglemember
 ptban2 = 0xC0A528 --setstatus
 plywhlbn = 0xC0A848 --UpdateEnabledState
 dambbots = 0xC44144 --isvalidtarget
-end 
+fsspawn = 0x1231328 --public class NetworkThread / GetStats
+wteam = 0xC2A748 --get_IsViewLocalCharacter
+fkduck = 0xEA582C --UpdateCrouch
+stickman = 0x1E7C774 --get_normal / public struct RaycastHit
+bunnyhop = 0x1E7C780 --get_distance / public struct RaycastHit
+reloading = 0xEA3D2C --isReloadingPossible
+suppressor = 0xBF336C --get_Suppressor
+namespoofer = 0xC75720 --public class KillNotification
+end
