@@ -53,6 +53,7 @@ radaresp = 0x7DF4CC --FetchFollowedCharacterTeamIndex
 norec = 0xD04150 --applyrecoil
 sprd = 0xD03FF0 --updatespread
 aimpnch = 0xD042E0 --applyaimpunch
+armorspeed = 0xD04448 --UpdateArmorMoveSpeedReductionRates
 speee = 0xD03B90 --getcurrentmaxspeed
 hdrai = 0x61A16C --raycastcharacters
 byrai = 0x61A16C --raycastcharacters
@@ -94,6 +95,7 @@ radaresp = 0xC2ADAC --get_FollowedCharacterTeamIndex
 norec = 0x1073228 --applyrecoil
 sprd = 0x1073130 --updatespread
 aimpnch = 0x1073344 --applyaimpunch
+armorspeed = 0x107348C --UpdateArmorMoveSpeedReductionRates
 speed = 0x1072D98 --getcurrentmaxspeed
 hdrai = 0xAB8338 --raycastcharacter
 byrai = 0xAB8338 --raycastcharacter
@@ -119,4 +121,4 @@ bunnyhop = 0x1E7C780 --get_distance / public struct RaycastHit
 reloading = 0xEA3D2C --isReloadingPossible
 suppressor = 0xBF336C --get_Suppressor
 namespoofer = 0xC75720 --public class KillNotification
-end
+end 
