@@ -83,12 +83,12 @@ namespoofer = 0x83AE98 --public class KillNotification
 end
 
 if bit == 64 then
-bypass1 = 0xC8D050
+bypass1 = 0xC8D46C
 bypass2 = 0xA0AA84
 bypass3 = 0xD51F3C
 bypass4 = 0xE7F27C
 bypass5 = 0xE7F500
-bypass6 = 0xE7F988
+bypass6 = 0xE80988
 bypass7 = 0xAF3548 --BackendManager SetSessionToHeaders
 bypass8 = 0xAE5588 --abstract class ProfileCardFindRequ/GetHeaders
 radaresp = 0xC2ADAC --get_FollowedCharacterTeamIndex
