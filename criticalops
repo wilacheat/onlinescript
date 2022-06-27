@@ -8,7 +8,7 @@ DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n�
 
 il2cpp32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 40 af 47 02 00 02 00 05"
 
-il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 a0 de 73 00 00 00 00 00 40 00 00 00 00 00 00 00"
+il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 60 de 73 00 00 00 00 00 40 00 00 00 00 00 00 00"
 
 
 AUGS = "7040"
@@ -116,4 +116,4 @@ bunnyhop = 0x1E77F00 --get_distance / public struct RaycastHit
 reloading = 0xE8E014 --isReloadingPossible
 suppressor = 0xC120A8 --get_Suppressor
 namespoofer = 0xC74454 --public class KillNotification
-end 
+end
