@@ -8,7 +8,7 @@ DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n�
 
 il2cpp32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 40 af 47 02 00 02 00 05"
 
-il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 60 de 73 00 00 00 00 00 40 00 00 00 00 00 00 00"
+il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 60 de 73 00 00 00 00 00 40 00 00 00 00 00 00 00 "
 
 
 AUGS = "7040"
@@ -46,7 +46,8 @@ bypass2 = 0x54A288
 bypass3 = 0x93AA74
 bypass4 = 0xB17E90
 bypass5 = 0xB181B4
-bypass6 = 0x650D84 --abstract class ProfileCardFindRequ/GetHeaders
+bypass6 = 0x662C94 --c class BackendManager / SetSessionToHeaders
+bypass7 = 0x650D84 --abstract class ProfileCardFindRequ/GetHeaders
 radaresp = 0x7DEF4C --FetchFollowedCharacterTeamIndex
 norec = 0xD03718 --applyrecoil
 sprd = 0xD035B8 --updatespread
@@ -85,7 +86,8 @@ bypass2 = 0xA0A940
 bypass3 = 0xD4FC90
 bypass4 = 0xED4ACC
 bypass5 = 0xED4D54
-bypass6 = 0xAE61A0 --abstract class ProfileCardFindRequ/GetHeaders
+bypass6 = 0xAF3160 --c class BackendManager / SetSessionToHeaders
+bypass7 = 0xAE61A0 --abstract class ProfileCardFindRequ/GetHeaders
 radaresp = 0xC28AE0 --FetchFollowedCharacterTeamIndex
 norec = 0x1074C44 --applyrecoil
 sprd = 0x1074B4C --updatespread
