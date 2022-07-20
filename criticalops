@@ -1,6 +1,6 @@
 --discord.gg/hile
 --Made By 🔱 LasTPoinT#0001🔱
-gameversion = "1.33.0.f1870"
+gameversion = "1.33.1.f1894"
 ScriptVer = "2.0"
 menu = "❏ "..bit.." ʙɪᴛ ᴍᴇɴᴜ"
 DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n❏ ᴄᴏᴘꜱ ᴠᴇʀꜱɪᴏɴ :【"..gameversion.."】\n"..menu
@@ -8,7 +8,7 @@ DESCRALL = "❏ WILA Vip Script 🔱\n❏ Made By 🔥 LasTPoinT & Wilz 🔥\n�
 
 il2cpp32 = "7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 03 00 28 00 01 00 00 00 00 00 00 00 34 00 00 00 40 af 47 02 00 02 00 05"
 
-il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 60 de 73 00 00 00 00 00 40 00 00 00 00 00 00 00 "
+il2cpp64 = "7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00 00 ce 71 00 00 00 00 00 40 00 00 00 00 00 00 00"
 
 
 AUGS = "7040"
@@ -81,41 +81,41 @@ namespoofer = 0x83A918 --public class KillNotification
 end
 
 if bit == 64 then
-bypass1 = 0xC8BD84
-bypass2 = 0xA0A940
-bypass3 = 0xD4FC90
-bypass4 = 0xED4ACC
-bypass5 = 0xED4D54
-bypass6 = 0xAF3160 --c class BackendManager / SetSessionToHeaders
-bypass7 = 0xAE61A0 --abstract class ProfileCardFindRequ/GetHeaders
-radaresp = 0xC28AE0 --FetchFollowedCharacterTeamIndex
-norec = 0x1074C44 --applyrecoil
-sprd = 0x1074B4C --updatespread
-aimpnch = 0x1074D60 --applyaimpunch
-armorspeed = 0x1074EA8 --UpdateArmorMoveSpeedReductionRates
-speed = 0x10747B4 --getcurrentmaxspeed
-hdrai = 0xAB903C --raycastcharacter
-byrai = 0xAB903C --raycastcharacter
-noflsh = 0xAB0F90 --raycastgrenade
-nosmk = 0xBDB48C --ExplodeGrenade
-wollbng = 0xAB8AE8 --processhitbuffer
-crossh = 0xC11F0C --get_Crosshair
-blur = 0xE36210 --set_spread
-walkwall = 0xE90190 --getcapsuleparameters
+bypass1 = 0xCDB294
+bypass2 = 0x9DD408
+bypass3 = 0xD5D494
+bypass4 = 0xDF66A0
+bypass5 = 0xDF6928
+bypass6 = 0xD8073C --c class BackendManager / SetSessionToHeaders
+bypass7 = 0xD4C420 --abstract class ProfileCardFindRequ/GetHeaders
+radaresp = 0xC1B12C --FetchFollowedCharacterTeamIndex
+norec = 0xFE9DA0 --applyrecoil
+sprd = 0xFE9CA8 --updatespread
+aimpnch = 0xFE9EBC --applyaimpunch
+armorspeed = 0xFEA004 --UpdateArmorMoveSpeedReductionRates
+speed = 0xFE9910 --getcurrentmaxspeed
+hdrai = 0xAD8560 --raycastcharacter
+byrai = 0xAD8560 --raycastcharacter
+noflsh = 0xAD04B4 --raycastgrenade
+nosmk = 0xC39E68 --ExplodeGrenade
+wollbng = 0xAD800C --processhitbuffer
+crossh = 0xAC9338 --get_Crosshair
+blur = 0xE50EA4 --set_spread
+walkwall = 0xA172E8 --getcapsuleparameters
 tutorialpas1 = 0xD72F08 --class tutorialmanager
 tutorialpas2 = 0xD731C4 --class tutorialmanager
 tutorialpas3 = 0xD728D0 --class tutorialmanager
 tutorialpas4 = 0xD73248 --class tutorialmanager
-ptban1 = 0xBF1300 --get_issinglemember
-ptban2 = 0xBF1C4C --setstatus
-plywhlbn = 0xBF1F6C --UpdateEnabledState
-dambbots = 0xAD550C --isvalidtarget
-fsspawn = 0x1233D44 --public class NetworkThread / GetStats
-wteam = 0xC2A748 --get_IsViewLocalCharacter
-fkduck = 0xC2847C --UpdateCrouch
-stickman = 0x1E77EF4 --get_normal / public struct RaycastHit
-bunnyhop = 0x1E77F00 --get_distance / public struct RaycastHit
-reloading = 0xE8E014 --isReloadingPossible
-suppressor = 0xC120A8 --get_Suppressor
-namespoofer = 0xC74454 --public class KillNotification
+ptban1 = 0xE569AC --get_issinglemember
+ptban2 = 0xE572F8 --setstatus
+plywhlbn = 0xE57618 --UpdateEnabledState
+dambbots = 0xD3B450 --isvalidtarget
+fsspawn = 0x1079024 --public class NetworkThread / GetStats
+wteam = 0xC1AAC8 --get_IsViewLocalCharacter
+fkduck = 0xA2E640 --UpdateCrouch
+stickman = 0x1E23CC4 --get_normal / public struct RaycastHit
+bunnyhop = 0x1E23CD0 --get_distance / public struct RaycastHit
+reloading = 0xA2CB40 --isReloadingPossible
+suppressor = 0xAC94D4 --get_Suppressor
+namespoofer = 0xA16878 --public class KillNotification
 end
